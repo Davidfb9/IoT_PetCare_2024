@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.pagina_inicio);
-
+        setContentView(R.layout.anadircodigo);
+/*
         // Configurar el botón 'iniciar' para abrir RegistroActivity
         Button iniciarButton = findViewById(R.id.iniciar);
         iniciarButton.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, RegistroActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
     }
 }

@@ -12,35 +12,26 @@
         android:layout_height="76dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
         app:srcCompat="@drawable/petcare_icono_morado" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="92dp"
+        android:layout_marginTop="-40dp"
         android:fontFamily="@font/moresugar_regular"
         android:text="Pet Care"
         android:textColor="#C780FA"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="240dp"
-        android:layout_marginBottom="120dp"
-        android:background="#C780FA"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
@@ -55,7 +46,9 @@
         android:textColor="#242222"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.5" />
 
     <TextView
         android:id="@+id/textView6"
@@ -69,7 +62,9 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/button3"
@@ -77,14 +72,15 @@
         android:layout_height="70dp"
         android:layout_marginStart="120dp"
         android:layout_marginEnd="120dp"
-        android:layout_marginBottom="40dp"
         android:backgroundTint="#FADA9D"
         android:fontFamily="@font/poppins_bold"
         android:text="Enviar codigo de recuperación"
         android:textColor="#1D1C1C"
-        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintVertical_bias="0.5" />
 
     <TextView
         android:id="@+id/textView11"
@@ -97,16 +93,19 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.5" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="234dp"
         android:layout_height="282dp"
-        android:layout_marginTop="-60dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.5"
         app:srcCompat="@drawable/gato" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

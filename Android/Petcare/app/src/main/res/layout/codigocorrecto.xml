@@ -34,18 +34,18 @@
         android:layout_width="166dp"
         android:layout_height="59dp"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="385dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="#F8D59A"
         android:text="Ir a Mis Mascotas"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="@+id/textoanadecodigo"
-        app:layout_constraintTop_toBottomOf="@+id/tituloanadir" />
+        app:layout_constraintTop_toBottomOf="@+id/textoanadecodigo" />
 
     <ImageView
         android:id="@+id/gatoanadir"
         android:layout_width="169dp"
         android:layout_height="153dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="50dp"
         app:layout_constraintEnd_toEndOf="@+id/tituloanadir"
         app:layout_constraintTop_toBottomOf="@+id/tituloanadir"
@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-60dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="24dp"
         android:gravity="center"
         android:text="El código es correcto!\n\nAhora puedes acceder\n a la página de tus\nmascotas!"
         android:textColor="#FFFFFF"
